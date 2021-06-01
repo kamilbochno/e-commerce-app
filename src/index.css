@@ -25,7 +25,12 @@ object {
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
-  background: #fefefe;
+  background: url("M42.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
 
 .container {

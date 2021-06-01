@@ -13,6 +13,7 @@ export default function Products() {
 
   return (
     <div className="container">
+        <p>What are you looking for?</p>
       <div className="menu-container">
         <button onClick={onClick} className="menu-trigger">
           <span>Products</span>
@@ -33,19 +34,46 @@ export default function Products() {
               <a href="#">Eyepieces</a>
             </li>
             <li>
-              <a href="#">Eyepieces</a>
+              <a href="#">Filters</a>
             </li>
             <li>
-              <a href="#">Eyepieces</a>
+              <a href="#">Telescope accessories</a>
             </li>
             <li>
-              <a href="#">Eyepieces</a>
+              <a href="#">Solar Observation</a>
             </li>
             <li>
-              <a href="#">Eyepieces</a>
+              <a href="#">Astrophotography</a>
             </li>
             <li>
-              <a href="#">Eyepieces</a>
+              <a href="#">Spectroscopy & Photometry</a>
+            </li>
+            <li>
+              <a href="#">Observatories</a>
+            </li>
+            <li>
+              <a href="#">Media</a>
+            </li>
+            <li>
+              <a href="#">Planetaria&Sundials</a>
+            </li>
+            <li>
+              <a href="#">Binoculars</a>
+            </li>
+            <li>
+              <a href="#">Nature Observation</a>
+            </li>
+            <li>
+              <a href="#">Microscopy</a>
+            </li>
+            <li>
+              <a href="#">Globes&Maps</a>
+            </li>
+            <li>
+              <a href="#">Photo Tripods</a>
+            </li>
+            <li>
+              <a href="#">Maintenance&Cleaning</a>
             </li>
           </ul>
         </nav>
