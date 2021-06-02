@@ -12,8 +12,9 @@ export default function Products() {
   const onClick = () => setIsActive(!isActive);
 
   return (
+      
     <div className="container">
-        <p>What are you looking for?</p>
+        
       <div className="menu-container">
         <button onClick={onClick} className="menu-trigger">
           <span>Products</span>

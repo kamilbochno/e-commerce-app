@@ -1,0 +1,39 @@
+.Container {
+    background-color: #DBDBE6;
+    width: auto;
+    height: 80px;
+    margin-top: -60px;
+}
+
+.Container p {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 140px;
+    
+}
+
+.Search {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 600px;
+    
+}
+
+.Searchicon {
+    
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 865px;
+    
+}
+
+.Searchicon:hover {
+ 
+    background: #CE5937;
+    background: -moz-radial-gradient(center, #CE5937 0%, #A0A480 0%, #BBC5BA 100%);
+    background: -webkit-radial-gradient(center, #CE5937 0%, #A0A480 0%, #BBC5BA 100%);
+    background: radial-gradient(ellipse at center, #CE5937 0%, #A0A480 0%, #BBC5BA 100%);
+    cursor: pointer;
+}
+

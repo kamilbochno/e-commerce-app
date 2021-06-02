@@ -4,6 +4,7 @@ import { useStateValue } from './components/StateProvider/StateProvider';
 
 import Products from './components/Products/Products';
 import Header from './components/Header/Header';
+import Searchbar from './components/Searchbar/Searchbar';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Router>
      <Header />
+     <Searchbar />
      <Products />
      </Router>
     </div>
