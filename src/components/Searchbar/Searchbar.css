@@ -15,18 +15,31 @@
 .Search {
     position: absolute;
     margin-top: 20px;
-    margin-left: 600px;
+    margin-left: 700px;
     
 }
+@media only screen and (max-width: 800px) {
+    .Search {
+    
+    margin-left: 400px;
+    margin-top: 20px;
+    position: absolute; } }
+
 
 .Searchicon {
     
     border-radius: 15px;
     position: absolute;
     margin-top: 17px;
-    margin-left: 865px;
+    margin-left: 965px;
     
 }
+@media only screen and (max-width: 800px) {
+    .Searchicon {
+        position: absolute;
+        margin-left: 665px;
+        }
+    }
 
 .Searchicon:hover {
  

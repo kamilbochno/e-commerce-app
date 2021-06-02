@@ -5,6 +5,8 @@ import { useStateValue } from './components/StateProvider/StateProvider';
 import Products from './components/Products/Products';
 import Header from './components/Header/Header';
 import Searchbar from './components/Searchbar/Searchbar';
+import Main from './components/Main/Main';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Router>
      <Header />
      <Searchbar />
+     <Main />
      <Products />
      </Router>
     </div>
