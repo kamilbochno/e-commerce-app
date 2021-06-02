@@ -1,0 +1,36 @@
+.Footer_container {
+    background-color: #DBDBE6;
+    width: auto;
+    height: 130px;
+    margin-top: 90px;
+}
+
+.About_us {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.Questions {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+.Shipping {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 700px;
+}
+
+.Security {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1000px;
+}
+
+.Business {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1300px;
+}
