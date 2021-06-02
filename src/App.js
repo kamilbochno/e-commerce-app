@@ -6,6 +6,7 @@ import Products from './components/Products/Products';
 import Header from './components/Header/Header';
 import Searchbar from './components/Searchbar/Searchbar';
 import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
      <Searchbar />
      <Main />
      <Products />
+     <Footer />
      </Router>
     </div>
     
