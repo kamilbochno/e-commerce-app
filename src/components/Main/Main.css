@@ -4,6 +4,62 @@
     margin-left: 425px;
     width: 800px;
     height: 900px;
-    box-shadow: 5px 5px grey;
+    
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67);
 }
 
+.Sections {
+    background-color: #e5e5e5;
+    color: #777;
+    width: 660px;
+    height: 30px;
+    margin-left: 70px;
+    
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.37); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.37);
+}
+
+.Sections p {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.Content {
+    width: 660px;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.Brand1 {
+    width: 100px;
+    margin-top: 20px;
+    
+    
+
+}
+.Brand2 {
+    width: 100px;
+    margin-top: -48px;
+    margin-left: 130px;
+}
+
+.Brand3 {
+    width: 100px;
+    margin-top: -51px;
+    margin-left: 260px;
+}
+
+.Brand4 {
+    width: 100px;
+    margin-top: -52px;
+    margin-left: 390px;
+}
+
+.Brand5 {
+    width: 100px;
+    margin-top: -45px;
+    margin-left: 510px;
+}
