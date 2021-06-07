@@ -2,11 +2,18 @@
 import React from 'react';
 import styles from "./Main.css";
 import MyCarousel from './Carousel/Carousel';
+
 import Celestron from './Celestron.jpg';
 import Skywatcher from './Skywatcher.jpg';
 import Maede from './Meade.jpg';
 import William_Optics from './William-Optics.jpg';
 import Taurus from './Taurus.jpg';
+
+import ZWO from './ZWO.jpg';
+import IOptron from './iOptron.jpg';
+import Pegasus_Astro from './Pegasus-Astro.jpg';
+import Baader_Planetarium from './Baader-Planetarium.jpg';
+import Tele_Vue_Optics from './Tele-Vue-Optics.jpg';
 
 
 
@@ -53,6 +60,25 @@ function Main()  {
           <div className="Sections">
               <p>Top brands accessories</p>
           </div>
+          <div className="Content">
+              <div className="Brand1">
+              <img src={ZWO} alt="Celestron"/> 
+              </div> 
+              <div className="Brand2">       
+              <img src={IOptron} alt="Celestron"/>
+              </div>
+              <div className="Brand3">       
+              <img src={Pegasus_Astro} alt="Celestron"/>
+              </div>
+              <div className="Brand4">       
+              <img src={Baader_Planetarium} alt="Celestron"/>
+              </div>
+              <div className="Brand5">       
+              <img src={Tele_Vue_Optics} alt="Celestron"/>
+              </div>
+
+          </div>
+
         </div>
         
     )
