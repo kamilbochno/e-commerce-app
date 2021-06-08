@@ -5,6 +5,9 @@ import { useDetectOutsideClick } from "./useDetectOutsideClick";
 
 import image1 from "./1.png";
 import image2 from "./2.png";
+import image3 from "./3.png";
+
+
 export default function Products() {
   const dropdownRef = useRef(null);
   const [isActive, setIsActive] = useDetectOutsideClick(dropdownRef, false);
@@ -27,8 +30,8 @@ export default function Products() {
             <li>
              
               <a href="#">Telescopes</a>
-               
-              <img src={image1} alt="1"></img>
+               <img src={image1} alt="1"></img>
+              
               
             </li>
             <li>
@@ -37,6 +40,7 @@ export default function Products() {
             </li>
             <li>
               <a href="#">Eyepieces</a>
+              <img src={image3} alt="2"></img>
             </li>
             <li>
               <a href="#">Filters</a>
