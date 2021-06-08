@@ -43,3 +43,14 @@
 .Links {
     margin-top: 10px;
 }
+
+.Links p {
+    font-size: 15px;
+    color: grey;
+    
+}
+
+.Links p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
