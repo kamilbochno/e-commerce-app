@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/kamilbochno.github.io/e-commerce-app/static/css/main.4a247ffd.chunk.css",
+    "main.js": "/kamilbochno.github.io/e-commerce-app/static/js/main.0ee1e33f.chunk.js",
+    "main.js.map": "/kamilbochno.github.io/e-commerce-app/static/js/main.0ee1e33f.chunk.js.map",
+    "runtime-main.js": "/kamilbochno.github.io/e-commerce-app/static/js/runtime-main.b6542bd8.js",
+    "runtime-main.js.map": "/kamilbochno.github.io/e-commerce-app/static/js/runtime-main.b6542bd8.js.map",
+    "static/css/2.004e36c4.chunk.css": "/kamilbochno.github.io/e-commerce-app/static/css/2.004e36c4.chunk.css",
+    "static/js/2.25c7a118.chunk.js": "/kamilbochno.github.io/e-commerce-app/static/js/2.25c7a118.chunk.js",
+    "static/js/2.25c7a118.chunk.js.map": "/kamilbochno.github.io/e-commerce-app/static/js/2.25c7a118.chunk.js.map",
+    "static/js/3.6d8f436d.chunk.js": "/kamilbochno.github.io/e-commerce-app/static/js/3.6d8f436d.chunk.js",
+    "static/js/3.6d8f436d.chunk.js.map": "/kamilbochno.github.io/e-commerce-app/static/js/3.6d8f436d.chunk.js.map",
+    "index.html": "/kamilbochno.github.io/e-commerce-app/index.html",
+    "static/css/2.004e36c4.chunk.css.map": "/kamilbochno.github.io/e-commerce-app/static/css/2.004e36c4.chunk.css.map",
+    "static/css/main.4a247ffd.chunk.css.map": "/kamilbochno.github.io/e-commerce-app/static/css/main.4a247ffd.chunk.css.map",
+    "static/js/2.25c7a118.chunk.js.LICENSE.txt": "/kamilbochno.github.io/e-commerce-app/static/js/2.25c7a118.chunk.js.LICENSE.txt",
+    "static/media/1.168151eb.png": "/kamilbochno.github.io/e-commerce-app/static/media/1.168151eb.png",
+    "static/media/2.834c852b.png": "/kamilbochno.github.io/e-commerce-app/static/media/2.834c852b.png",
+    "static/media/index.css": "/kamilbochno.github.io/e-commerce-app/static/media/M42.6b46b19a.jpg",
+    "static/media/Omegon_Brightsky_no_reddot_all_en.1f0ba59b.jpg": "/kamilbochno.github.io/e-commerce-app/static/media/Omegon_Brightsky_no_reddot_all_en.1f0ba59b.jpg",
+    "static/media/Pegasus-Astro.9301e535.jpg": "/kamilbochno.github.io/e-commerce-app/static/media/Pegasus-Astro.9301e535.jpg",
+    "static/media/Rectangle 1.9d93da7b.svg": "/kamilbochno.github.io/e-commerce-app/static/media/Rectangle 1.9d93da7b.svg",
+    "static/media/Slider_EN_5_Questions_all.912d9a47.jpg": "/kamilbochno.github.io/e-commerce-app/static/media/Slider_EN_5_Questions_all.912d9a47.jpg",
+    "static/media/Slider_EN_Guide_Kids_all.8ecd20f7.jpg": "/kamilbochno.github.io/e-commerce-app/static/media/Slider_EN_Guide_Kids_all.8ecd20f7.jpg",
+    "static/media/unistellar-evscope2_all_en.9335398b.jpg": "/kamilbochno.github.io/e-commerce-app/static/media/unistellar-evscope2_all_en.9335398b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6542bd8.js",
+    "static/css/2.004e36c4.chunk.css",
+    "static/js/2.25c7a118.chunk.js",
+    "static/css/main.4a247ffd.chunk.css",
+    "static/js/main.0ee1e33f.chunk.js"
+  ]
+}
