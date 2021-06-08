@@ -1,1 +1,1 @@
-The live project can be seen at https://kamilbochno.github.io/e-commerce-app/
+The live project can be seen at https://e-commerce-app2444.herokuapp.com/
