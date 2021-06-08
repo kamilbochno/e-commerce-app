@@ -90,8 +90,20 @@
     color: #333333;
     padding: 15px 50px;
     display: block;
+    
   }
   
   .menu li:hover {
       background-color: lightgray;
   }
+
+.menu-container img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: -40px;
+  margin-left: 5px;
+    
+  
+  
+}
