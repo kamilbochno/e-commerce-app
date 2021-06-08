@@ -2,10 +2,9 @@
 import React, { useRef } from "react";
 import styles from "./Products.css";
 import { useDetectOutsideClick } from "./useDetectOutsideClick";
-/*
- * Read the blog post here:
- * https://letsbuildui.dev/articles/building-a-dropdown-menu-component-with-react-hooks
- */
+
+import image1 from "./1.png";
+import image2 from "./2.png";
 export default function Products() {
   const dropdownRef = useRef(null);
   const [isActive, setIsActive] = useDetectOutsideClick(dropdownRef, false);
@@ -26,10 +25,15 @@ export default function Products() {
         >
           <ul>
             <li>
+             
               <a href="#">Telescopes</a>
+               
+              <img src={image1} alt="1"></img>
+              
             </li>
             <li>
               <a href="#">Mountings&accessories</a>
+              <img src={image2} alt="2"></img>
             </li>
             <li>
               <a href="#">Eyepieces</a>
