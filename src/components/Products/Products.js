@@ -6,6 +6,20 @@ import { useDetectOutsideClick } from "./useDetectOutsideClick";
 import image1 from "./1.png";
 import image2 from "./2.png";
 import image3 from "./3.png";
+import image4 from "./4.png";
+import image5 from "./5.png";
+import image6 from "./6.png";
+import image7 from "./7.png";
+import image8 from "./8.png";
+import image9 from "./9.png";
+import image10 from "./10.png";
+import image11 from "./11.png";
+import image12 from "./12.png";
+import image13 from "./13.png";
+import image14 from "./14.png";
+import image15 from "./15.png";
+import image16 from "./16.png";
+
 
 
 export default function Products() {
@@ -30,59 +44,69 @@ export default function Products() {
             <li>
              
               <a href="#">Telescopes</a>
-               <img src={image1} alt="1"></img>
-              
-              
+               <img src={image1} alt="Telescope"></img>
+                      
             </li>
             <li>
               <a href="#">Mountings&accessories</a>
-              <img src={image2} alt="2"></img>
+              <img src={image2} alt="Mounting"></img>
             </li>
             <li>
               <a href="#">Eyepieces</a>
-              <img src={image3} alt="2"></img>
+              <img src={image3} alt="Eyepieces"></img>
             </li>
             <li>
               <a href="#">Filters</a>
+              <img src={image4} alt="Filters"></img>
             </li>
             <li>
-              <a href="#">Telescope accessories</a>
+              <a href="#">Accessories</a>
+              <img src={image5} alt="Accessories"></img>
             </li>
             <li>
               <a href="#">Solar Observation</a>
+              <img src={image7} alt="Solar"></img>
             </li>
             <li>
               <a href="#">Astrophotography</a>
+              <img src={image6} alt="Camera"></img>
             </li>
             <li>
-              <a href="#">Spectroscopy & Photometry</a>
+              <a href="#">Spectroscopy</a>
+              <img src={image8} alt="Spectro"></img>
             </li>
             <li>
               <a href="#">Observatories</a>
+              <img src={image9} alt="Observatory"></img>
             </li>
-            <li>
-              <a href="#">Media</a>
-            </li>
+            
             <li>
               <a href="#">Planetaria&Sundials</a>
+              <img src={image10} alt="Solar_system"></img>
             </li>
             <li>
               <a href="#">Binoculars</a>
+              <img src={image12} alt="Binocular"></img>
             </li>
             <li>
-              <a href="#">Nature Observation</a>
+              <a href="#">Nature</a>
+              <img src={image11} alt="Nature"></img>
             </li>
             <li>
               <a href="#">Microscopy</a>
+              <img src={image13} alt="Microscope"></img>
             </li>
             <li>
               <a href="#">Globes&Maps</a>
+              <img src={image14} alt="Globe"></img>
             </li>
             <li>
               <a href="#">Photo Tripods</a>
+              <img src={image15} alt="Tripod"></img>
             </li>
             <li>
               <a href="#">Maintenance&Cleaning</a>
+              <img src={image16} alt="Clean"></img>
             </li>
           </ul>
         </nav>
