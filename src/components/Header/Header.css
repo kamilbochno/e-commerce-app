@@ -1,6 +1,10 @@
+
 .Cart {
-    margin-right: 20px;
-    margin-bottom: -10px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -25px;
+    
+    
 }
 
 .logo {

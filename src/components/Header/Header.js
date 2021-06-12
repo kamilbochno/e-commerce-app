@@ -30,6 +30,7 @@ const Navigation = styled.header`
     p {
       width: 500px;
       display: block;
+      
     }
     em {
       font-size: 0.5em;
@@ -52,7 +53,6 @@ const Navigation = styled.header`
     color: #222;
     opacity: 0.55;
     transition: all 0.6s;
-    color: #222;
     font-size: 1em;
   }
   a:hover {
@@ -64,6 +64,8 @@ const Navigation = styled.header`
     font-size: 2rem;
   }
   nav {
+  
+    }
     ul {
       display: flex;
       justify-content: space-between;
@@ -87,18 +89,36 @@ const Navigation = styled.header`
 
   @media only screen and (max-width: 1000px) {
     padding: 0px;
+    .nav {
+      margin-top: 10px;
+      margin-right: 46px;
+    }
+    .Cart {
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
     .logo {
       padding-left: 15px;
       padding-top: 0px !important;
-      margin-left: 80px;
+      margin-left: 90px;
       
     }
   }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 868px) {
     height: auto;
     min-height: 50px;
     display: block;
     position: relative;
+    .nav {
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+    .Cart {
+      
+     visibility: hidden;
+      
+      
+    }
     .logo {
       width: 100%;
       display: block;
@@ -113,7 +133,7 @@ const Navigation = styled.header`
       display: inline-block;
       position: absolute;
       top: 10px;
-      right: 10px;
+      right: 20px;
       cursor: pointer;
     }
     ul.collapsed {
@@ -147,8 +167,8 @@ const Navigation = styled.header`
         transition-timing-function: ease-in;
       }
       li {
-        padding: 15px 10px;
-        margin: 0px 0px;
+        padding: 10px 10px;
+        margin: 0px;
         width: 100%;
       }
     }
@@ -201,11 +221,15 @@ class Nav extends Component {
             <NavLink activeClassName="active" to="/login">
                 <li>Log In/Sign Up</li>
             </NavLink>
-            <div className="Cart">
+            
             <NavLink activeClassName="active" to="/cart">
-                <ShoppingCartRoundedIcon  />                    
+            <ShoppingCartRoundedIcon /> 
+             <div className="Cart">
+                 
+                <li>Cart</li>
+                </div>                   
             </NavLink>
-            </div>
+            
           </ul>
         </nav>
         
