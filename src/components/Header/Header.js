@@ -64,7 +64,7 @@ const Navigation = styled.header`
     font-size: 2rem;
   }
   nav {
-  
+       margin-top: 10px;
     }
     ul {
       display: flex;
