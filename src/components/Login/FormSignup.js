@@ -1,10 +1,12 @@
 import React from 'react';
+import { BrowserRouter as Route } from 'react-router-dom';
 import validate from './validateInfo';
 import useForm from './useForm';
 import './Form.css';
 
 
   const FormSignup = ({ submitForm }) => {
+    
     const { handleChange, handleSubmit, values, errors } = useForm(
       submitForm,
       validate
@@ -70,10 +72,12 @@ import './Form.css';
           Sign up
         </button>
         <span className='form-input-login'>
-          Already have an account? Login <a href='#'>here</a>
+          Already have an account? Login <a href='/login'>here</a>
         </span>
       </form>
+     
     </div>
+    
   );
 };
 

@@ -47,7 +47,7 @@
     background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
   }
   
-  .form {
+  .form  {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -139,4 +139,53 @@
     text-decoration: none;
     color: #27cdff;
     font-weight: 600;
+  }
+
+  .Login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Login p {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -40px;
+    color: white;
+  }
+  
+  .description {
+    position: absolute;
+    padding-top: 60px;
+    width: 500px;
+    margin-left: -120px;
+    justify-content: left;
+    align-items: left;
+    
+    font-size: 15px;
+  }
+  .Login form {
+    width: 400px;
+    height: 400px;
+    padding-top: 50px;
+    
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+  }
+  @media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
   }

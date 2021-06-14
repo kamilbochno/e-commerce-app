@@ -1,20 +1,29 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { useStateValue } from './components/StateProvider/StateProvider';
 
 import Home from './components/Home/Home';
-
+import About from './components/About/About';
+import Form from './components/Login/Form';
+import LoginForm from './components/Login/LoginForm';
 
 function App() {
+  
+    
+  
+
   return (
     
     <div className="App">
       {/* Navbar navigation*/}
+      
      <Route exact path="/" component={Home} />
-     <Route exact path="/about" component={Home} /> 
+     <Route exact path="/about" component={About} /> 
      <Route exact path="/contact" component={Home} />
-     <Route exact path="/login" component={Home} />
+     <Route exact path="/register" component={Form} />
      <Route exact path="/cart"  component={Home}/>
+      {/*Register form*/}
+     <Route exact path="/login" component={LoginForm} />
       {/*Footer navigation*/}
      <Route exact path="/links"  component={Home}/>
      <Route exact path="/jobs" component={Home} />

@@ -1,26 +1,50 @@
-import React from 'react';
+import React, { useState } from "react";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import "./Form.css";
 
-function LoginForm() {
-    return (
-        <form>
-            <div className="form-inner">
-                <h2>Login</h2>
-                <div className="form-group">
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" id="name" />
+export default function Login() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-                </div>
-                <div className="form-group">
-                    <label htmlFor="email">Email:</label>
-                    <input type="email" name="email" id="email" />
-            </div>
-            <div className="form-group">
-                    <label htmlFor="password">Password:</label>
-                    <input type="password" name="password" id="password" />
-            </div> 
-            </div>       
-        </form>
-    );
+  function validateForm() {
+    return email.length > 0 && password.length > 0;
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+  }
+
+  return (
+    <div className="Login">
+      
+      <Form onSubmit={handleSubmit}>
+      <p>Login</p>
+        <Form.Group size="lg" controlId="email">
+          <Form.Label>Email</Form.Label>
+          <Form.Control
+            autoFocus
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </Form.Group>
+        <Form.Group size="lg" controlId="password">
+          <Form.Label>Password</Form.Label>
+          <Form.Control
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </Form.Group>
+        <Button block size="lg" type="submit" disabled={!validateForm()}>
+          Login
+        </Button>
+        <div className="description">
+        <p>Do not have an account? Register <a href="/register">Here</a></p>
+        </div>
+      </Form>
+      
+    </div>
+  );
 }
-
-export default LoginForm;
