@@ -43,69 +43,69 @@ export default function Products() {
           <ul>
             <li>
              
-              <a href="#">Telescopes</a>
+              <a href="/telescopes">Telescopes</a>
                <img src={image1} alt="Telescope"></img>
                       
             </li>
             <li>
-              <a href="#">Mountings&accessories</a>
+              <a href="/mount&acces">Mountings&accessories</a>
               <img src={image2} alt="Mounting"></img>
             </li>
             <li>
-              <a href="#">Eyepieces</a>
+              <a href="/eyepieces">Eyepieces</a>
               <img src={image3} alt="Eyepieces"></img>
             </li>
             <li>
-              <a href="#">Filters</a>
+              <a href="/filters">Filters</a>
               <img src={image4} alt="Filters"></img>
             </li>
             <li>
-              <a href="#">Accessories</a>
+              <a href="/accessories">Accessories</a>
               <img src={image5} alt="Accessories"></img>
             </li>
             <li>
-              <a href="#">Solar Observation</a>
+              <a href="/solar">Solar Observation</a>
               <img src={image7} alt="Solar"></img>
             </li>
             <li>
-              <a href="#">Astrophotography</a>
+              <a href="/astrophotography">Astrophotography</a>
               <img src={image6} alt="Camera"></img>
             </li>
             <li>
-              <a href="#">Spectroscopy</a>
+              <a href="/spectroscopy">Spectroscopy</a>
               <img src={image8} alt="Spectro"></img>
             </li>
             <li>
-              <a href="#">Observatories</a>
+              <a href="/observatories">Observatories</a>
               <img src={image9} alt="Observatory"></img>
             </li>
             
             <li>
-              <a href="#">Planetaria&Sundials</a>
+              <a href="/planetaria">Planetaria&Sundials</a>
               <img src={image10} alt="Solar_system"></img>
             </li>
             <li>
-              <a href="#">Binoculars</a>
+              <a href="/binoculars">Binoculars</a>
               <img src={image12} alt="Binocular"></img>
             </li>
             <li>
-              <a href="#">Nature</a>
+              <a href="/nature">Nature</a>
               <img src={image11} alt="Nature"></img>
             </li>
             <li>
-              <a href="#">Microscopy</a>
+              <a href="/microscopy">Microscopy</a>
               <img src={image13} alt="Microscope"></img>
             </li>
             <li>
-              <a href="#">Globes&Maps</a>
+              <a href="/globes&maps">Globes&Maps</a>
               <img src={image14} alt="Globe"></img>
             </li>
             <li>
-              <a href="#">Photo Tripods</a>
+              <a href="/tripods">Photo Tripods</a>
               <img src={image15} alt="Tripod"></img>
             </li>
             <li>
-              <a href="#">Maintenance&Cleaning</a>
+              <a href="/maintenance">Maintenance&Cleaning</a>
               <img src={image16} alt="Clean"></img>
             </li>
           </ul>
