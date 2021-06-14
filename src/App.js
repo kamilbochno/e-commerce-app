@@ -26,6 +26,23 @@ function App() {
      <Route exact path="/data" component={Home} />
      <Route exact path="/affiliate" component={Home} />
      <Route exact path="/retailers" component={Home} />
+      {/*Products navigation*/}
+     <Route exact path="/telescopes" component={Home} />
+     <Route exact path="/mount&acces" component={Home} />
+     <Route exact path="/eyepieces" component={Home} />
+     <Route exact path="/filters" component={Home} />
+     <Route exact path="/accessories" component={Home} />
+     <Route exact path="/solar" component={Home} />
+     <Route exact path="/astrophotography" component={Home} />
+     <Route exact path="/spectroscopy" component={Home} />
+     <Route exact path="/observatories" component={Home} />
+     <Route exact path="/planetaria" component={Home} />
+     <Route exact path="/binoculars" component={Home} />
+     <Route exact path="/nature" component={Home} /> 
+     <Route exact path="/microscopy" component={Home} />
+     <Route exact path="/globes&maps" component={Home} />
+     <Route exact path="/tripods" component={Home} />
+     <Route exact path="/maintenance" component={Home} />
                    
     </div>
     
