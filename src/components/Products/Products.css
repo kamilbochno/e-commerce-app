@@ -107,3 +107,11 @@
   
   
 }
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        position: absolute;
+        margin-top: -920px;
+        margin-left: 100px;
+    }
+}
