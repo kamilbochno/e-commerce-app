@@ -1,0 +1,11 @@
+.Telescopes_Products {
+    
+    background: white;
+    margin-top: -50px;
+    margin-left: 425px;
+    width: 800px;
+    height: 900px;
+    
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67);
+}
