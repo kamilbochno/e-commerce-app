@@ -4,7 +4,7 @@
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
   position: relative;
   border-radius: 10px;
-  height: 480px;
+  height: 490px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -74,15 +74,15 @@
   }
   
   .form-inputs p {
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
     color: #f00e0e;
   }
   
   .form-label {
     display: inline-block;
     font-size: 0.9rem;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
     color: #fff;
   }
   
@@ -155,7 +155,7 @@
   }
   .Login p {
     position: absolute;
-    margin-left: 150px;
+    margin-left: 170px;
     margin-top: -40px;
     color: white;
   }
@@ -164,9 +164,9 @@
     position: absolute;
     padding-top: 60px;
     width: 500px;
-    margin-left: -120px;
-    justify-content: left;
-    align-items: left;
+    margin-left: -100px;
+    justify-content: center;
+    align-items: center;
     
     font-size: 15px;
   }
@@ -185,7 +185,7 @@
     }
   
     .Login form {
-      margin: 0 auto;
-      max-width: 320px;
+      margin: 100px;
+      max-width: 400px;
     }
   }

@@ -19,6 +19,7 @@ export default function Login() {
     <div className="Login">
       
       <Form onSubmit={handleSubmit}>
+      <span className='close-btn'><a href='/'>x</a></span>    
       <p>Login</p>
         <Form.Group size="lg" controlId="email">
           <Form.Label>Email</Form.Label>

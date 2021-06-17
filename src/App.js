@@ -6,10 +6,8 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Form from './components/Login/Form';
 import LoginForm from './components/Login/LoginForm';
-
+import Telescopes from './components/Telescopes/Telescopes';
 function App() {
-  
-    
   
 
   return (
@@ -36,7 +34,7 @@ function App() {
      <Route exact path="/affiliate" component={Home} />
      <Route exact path="/retailers" component={Home} />
       {/*Products navigation*/}
-     <Route exact path="/telescopes" component={Home} />
+     <Route exact path="/telescopes" component={Telescopes} />
      <Route exact path="/mount&acces" component={Home} />
      <Route exact path="/eyepieces" component={Home} />
      <Route exact path="/filters" component={Home} />
