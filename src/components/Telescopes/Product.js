@@ -1,7 +1,8 @@
 import React from 'react';
 import Styles from './Product.css';
 import Products from '../Products/Products';
-import { Container, Row, Col, Card, Button, CardDeck, CardGroup } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
+import Title from '../Title/Title';
 
 function Product() {
 
@@ -11,13 +12,32 @@ return (
   
   <div className="Telescopes_Products">
     <Products/>
-    <div class="grid-container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>
-  <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>
+    <h1 className="Title"><Title/></h1>
+    <div className="Grid-container">
+    <div className="Product-item">
+    <div className="Product-img"></div>
+    <Button className="Add_item">Add to cart</Button>
+    </div>
+    <div className="Product-item">
+    <div className="Product-img"></div>
+    <Button className="Add_item">Add to cart</Button>
+    </div>
+    <div className="Product-item">
+    <div className="Product-img"></div>
+    <Button className="Add_item">Add to cart</Button>
+    </div>
+    <div className="Product-item">
+    <div className="Product-img"></div>
+    <Button className="Add_item">Add to cart</Button>
+    </div>
+    <div className="Product-item">
+    <div className="Product-img"></div>
+    <Button className="Add_item">Add to cart</Button>
+    </div>
+    <div className="Product-item">
+    <div className="Product-img"></div>
+    <Button className="Add_item">Add to cart</Button>
+    </div>
   
 </div>
 </div>
