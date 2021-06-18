@@ -20,9 +20,16 @@ import image14 from "./14.png";
 import image15 from "./15.png";
 import image16 from "./16.png";
 
+function GetTitle() {
+  const currentURL = document.URL;
+  const formattedURL = currentURL.split('/').pop()
+  const capitalizedURL = formattedURL.charAt(0).toUpperCase() + formattedURL.slice(1);
+return (
+  capitalizedURL
+);
+}
 
-
-export default function Products() {
+function Products() {
   const dropdownRef = useRef(null);
   const [isActive, setIsActive] = useDetectOutsideClick(dropdownRef, false);
   const onClick = () => setIsActive(!isActive);
@@ -113,4 +120,10 @@ export default function Products() {
       </div>
     </div>
   );
+}
+
+export {
+  Products,
+  GetTitle
+
 }

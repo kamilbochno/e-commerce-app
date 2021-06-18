@@ -5,7 +5,7 @@ import { useStateValue } from '../StateProvider/StateProvider';
 import styles from '../About/About.css';
 
 
-import Products from '../Products/Products';
+import { Products } from '../Products/Products';
 import Header from '../Header/Header';
 import Searchbar from '../Searchbar/Searchbar';
 import Footer from '../Footer/Footer';
