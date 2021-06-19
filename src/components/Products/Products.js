@@ -55,7 +55,7 @@ function Products() {
                       
             </li>
             <li>
-              <a href="/mount&acces">Mountings&accessories</a>
+              <a href="/mountings&accessories">Mountings&accessories</a>
               <img src={image2} alt="Mounting"></img>
             </li>
             <li>
@@ -88,7 +88,7 @@ function Products() {
             </li>
             
             <li>
-              <a href="/planetaria">Planetaria&Sundials</a>
+              <a href="/planetaria&sundials">Planetaria&Sundials</a>
               <img src={image10} alt="Solar_system"></img>
             </li>
             <li>
@@ -112,7 +112,7 @@ function Products() {
               <img src={image15} alt="Tripod"></img>
             </li>
             <li>
-              <a href="/maintenance">Maintenance&Cleaning</a>
+              <a href="/maintenance&cleaning">Maintenance&Cleaning</a>
               <img src={image16} alt="Clean"></img>
             </li>
           </ul>
