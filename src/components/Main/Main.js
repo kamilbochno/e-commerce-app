@@ -39,7 +39,7 @@ function Main()  {
           <div className="Sections">
               <p>Top brands telescopes</p>
           </div>
-          <div className="Content">
+          <div className="Brand-container">
               <div className="Brand1">
               <img src={Celestron} alt="Celestron"/> 
               </div> 
@@ -60,7 +60,7 @@ function Main()  {
           <div className="Sections">
               <p>Top brands accessories</p>
           </div>
-          <div className="Content">
+          <div className="Brand-container">
               <div className="Brand1">
               <img src={ZWO} alt="Celestron"/> 
               </div> 

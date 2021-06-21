@@ -3,6 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import { ReactComponent as HeaderLogo } from './Rectangle 1.svg';
 import ShoppingCartRoundedIcon from '@material-ui/icons/ShoppingCartRounded';
 
+
 import style from "./Header.css";
 import styled from "styled-components";
 
@@ -91,7 +92,7 @@ const Navigation = styled.header`
     padding: 0px;
     .nav {
       margin-top: 10px;
-      margin-right: 46px;
+      margin-right: 60px;
     }
     .Cart {
       margin-bottom: 10px;
@@ -177,8 +178,12 @@ const Navigation = styled.header`
 
 
 
-class Nav extends Component {
 
+
+
+class Nav extends Component {
+  
+  
 
   constructor(props) {
     super(props);
@@ -194,6 +199,8 @@ class Nav extends Component {
   }
   render() {
     const { isExpanded } = this.state;
+    
+    
 
     return (
       <Navigation>
@@ -227,6 +234,7 @@ class Nav extends Component {
              <div className="Cart">
                  
                 <li>Cart</li>
+                
                 </div>                   
             </NavLink>
             

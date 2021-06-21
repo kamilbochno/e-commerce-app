@@ -5,7 +5,8 @@ import styles from './Footer.css';
 function Footer() {
     return(
         <div className="Footer_container">
-           <div className="About_us">
+         <div className="Footer_c">
+          <div className="About_us">
                <h6>About Astroshop24</h6>
                <div className="Links">
                <NavLink activeClassName="active" to="/about">
@@ -18,7 +19,8 @@ function Footer() {
                <p>Jobs</p>
                </NavLink>
                </div>
-           </div>
+            </div>  
+           
            <div className="Questions">
              <h6>Questions</h6>
                <div className="Links">
@@ -67,8 +69,10 @@ function Footer() {
                </NavLink>
                </div>
            </div>
+           </div>
+           </div>
 
-        </div>
+        
     )
 }
 

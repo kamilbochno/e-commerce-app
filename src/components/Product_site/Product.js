@@ -1,15 +1,17 @@
-import React from 'react';
+import  { React, useState }  from 'react';
 import Styles from './Product.css';
 import { Products, GetTitle } from '../Products/Products';
 import { Button } from 'react-bootstrap';
 
 
+
+
 function Product() {
 
-
-return (
-    
   
+    
+  return (
+    
   <div className="Telescopes_Products">
     <Products/>
     <h1 className="Title"><GetTitle /></h1>
@@ -41,9 +43,10 @@ return (
   
 </div>
 </div>
+   
     );
-
 }
+
 
 
 export default Product;

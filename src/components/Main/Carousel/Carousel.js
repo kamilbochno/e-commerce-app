@@ -9,7 +9,7 @@ import image4 from "./unistellar-evscope2_all_en.jpg";
 
 const MyCarousel = () => (
     <div className="Slides"
-    style={{ width: "800px", margin: "auto", padding: "30px"}}>
+    style={{ width: "auto", margin: "10px", padding: "20px"}}>
   <Carousel  plugins={['arrows', 'infinite', 
   {
       resolve: autoplayPlugin,
